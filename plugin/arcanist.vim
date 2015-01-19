@@ -10,4 +10,4 @@ function! s:Lint() abort
   botright copen
 endfunction
 
-command! -nargs=* Lint call s:Lint()
+command! Lint call s:Lint()
